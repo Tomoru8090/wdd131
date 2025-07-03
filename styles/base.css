@@ -11,6 +11,10 @@ body {
     color: #333;
     line-height: 1.6;
 }
+body {
+    font-family: sans-serif;
+    /* Robotoを使わず標準フォントのみ */
+}
 
 /* ヘッダー */
 header {
