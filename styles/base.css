@@ -60,6 +60,7 @@ main {
     box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
 }
 
+
 /* セクション */
 section {
     margin-bottom: 2rem;
@@ -68,6 +69,10 @@ section {
 h2 {
     margin-bottom: 0.75rem;
     color: #2c3e50;
+}
+ul {
+    list-style-type: disc;
+    margin-left: 2rem;
 }
 
 /* 画像 */
