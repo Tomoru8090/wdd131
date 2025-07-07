@@ -7,23 +7,23 @@ const temples = [
     },
     {
         name: "Japan Fukuoka Temple",
-        imageUrl: "images/fukuoka temple.jpeg"
+        imageUrl: "images/fukuoka.jpg"
     },
     {
         name: "Japan Okinawa Temple",
-        imageUrl: "images/okinawa_japan_temple_exterior.jpeg"
+        imageUrl: "images/okinawa.jpg"
     },
     {
         name: "Hawaii Laie Temple",
-        imageUrl: "images/laie_hawaii_temple_lds.jpeg"
+        imageUrl: "images/laie.jpg"
     },
     {
         name: "Australia Brisbane Temple",
-        imageUrl: "images/brisbane_australia_temple_lds.jpeg"
+        imageUrl: "images/brisbane.jpg"
     },
     {
         name: "Japan Sapporo Temple",
-        imageUrl: "images/sapporo_japan_temple_night_photo.jpeg"
+        imageUrl: "images/sapporo.jpg"
     }
 ];
 
