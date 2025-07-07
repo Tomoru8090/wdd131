@@ -1,0 +1,79 @@
+/* Google Font 読み込み（例: Roboto） */
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+/* 全体に適用される基本スタイル */
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fdfdfd;
+}
+
+/* ヘッダー */
+header {
+    background-color: #4B0082;
+    /* パープル系（自由に変更OK） */
+    color: white;
+    padding: 1rem;
+}
+
+header h1 {
+    margin: 0;
+}
+
+/* ナビゲーションの基本レイアウト */
+nav ul {
+    display: flex;
+    flex-direction: column;
+    /* モバイル表示では縦並び */
+    padding: 0;
+    margin: 1rem 0 0;
+    list-style: none;
+    gap: 0.5rem;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 0.5rem;
+    background-color: #6200ea;
+    border-radius: 4px;
+    text-align: center;
+}
+
+nav a:hover {
+    background-color: #3700b3;
+}
+
+/* メイン */
+main {
+    max-width: 600px;
+    margin: 2rem auto;
+    padding: 1rem;
+}
+
+/* 画像スタイル */
+main img {
+    width: 100%;
+    height: auto;
+    display: block;
+    margin-bottom: 0.5rem;
+}
+
+main section {
+    margin-bottom: 1.5rem;
+    text-align: center;
+}
+
+main img {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+    display: block;
+    margin: 0 auto 0.5rem;
+}
+
+main p {
+    font-weight: bold;
+    color: #333;
+}
