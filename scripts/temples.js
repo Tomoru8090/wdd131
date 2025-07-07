@@ -31,16 +31,17 @@ const temples = [
 const main = document.querySelector("main");
 
 temples.forEach((temple) => {
-    const section = document.createElement("section");
+    const figure = document.createElement("figure");
     const img = document.createElement("img");
-    const caption = document.createElement("p");
+    const caption = document.createElement("figcaption");
 
     img.src = temple.imageUrl;
     img.alt = temple.name;
     caption.textContent = temple.name;
 
-    section.appendChild(img);
-    section.appendChild(caption);
-    main.appendChild(section);
+    figure.appendChild(img);
+    figure.appendChild(caption);
+    main.appendChild(figure);
 });
+  
   
