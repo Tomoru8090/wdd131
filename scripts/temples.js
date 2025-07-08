@@ -24,13 +24,31 @@ const temples = [
     {
         name: "Japan Sapporo Temple",
         imageUrl: "images/sapporo.jpg"
+    },
+    {
+        name: "America Idaho Temple",
+        imageUrl: "images/idaho.jpg"
+    },
+    {
+        name: "America Saltlake Temple",
+        imageUrl: "images/Saltlake.jpg"
+    },
+    {
+        name: "Utah Provo Temple",
+        imageUrl:"images/provo.jpg"
+    },
+    {
+        name: "Logan Utah Temple",
+        imageUrl:"images/logan.jpg"
     }
+
+
 ];
 
 // <main>にカードを追加
 const main = document.querySelector("main");
 
-temples.forEach((temple) => {
+temples.forEach(temple => {
     const figure = document.createElement("figure");
     const img = document.createElement("img");
     const caption = document.createElement("figcaption");
