@@ -35,17 +35,14 @@ const temples = [
     },
     {
         name: "Utah Provo Temple",
-        imageUrl:"images/provo.jpg"
+        imageUrl: "images/provo.jpg"
     },
     {
         name: "Logan Utah Temple",
-        imageUrl:"images/logan.jpg"
+        imageUrl: "images/logan.jpg"
     }
-
-
 ];
 
-// <main>にカードを追加
 const main = document.querySelector("main");
 
 temples.forEach(temple => {
@@ -61,5 +58,3 @@ temples.forEach(temple => {
     figure.appendChild(caption);
     main.appendChild(figure);
 });
-  
-  
