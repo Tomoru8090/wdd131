@@ -1,0 +1,64 @@
+/* General Reset */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+}
+
+header,
+footer {
+    background-color: crimson;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem;
+}
+
+picture img {
+    width: 100%;
+    max-width: 600px;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 1rem;
+}
+
+.card {
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 1rem;
+    margin: 1rem;
+    width: 90%;
+    max-width: 400px;
+}
+
+.card h2 {
+    border-bottom: 2px solid #ccc;
+    margin-bottom: 0.5rem;
+}
+
+ul li {
+    margin: 0.5rem 0;
+}
+
+/* Responsive layout */
+@media (min-width: 700px) {
+    main {
+        flex-direction: row;
+        justify-content: center;
+        gap: 2rem;
+    }
+}
