@@ -1,3 +1,7 @@
+:root {
+    --main-color: #c00;
+    --font-family: 'Roboto', sans-serif;
+}
 /* General Reset */
 * {
     box-sizing: border-box;
@@ -61,4 +65,7 @@ ul li {
         justify-content: center;
         gap: 2rem;
     }
+}
+h1::after {
+    content: " 🇯🇵";
 }

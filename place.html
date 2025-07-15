@@ -2,14 +2,16 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8" />
+    <meta charset="utf-8">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Japan</title>
+    <meta name="author" content="Tomoru Aoki">
+    <meta name="description" content="This page provides basic information and weather conditions for Japan.">
+    <title>Japan - Country Information Page</title>
     <link rel="stylesheet" href="styles.css" />
     <link rel="stylesheet" href="styles/place.css" />
     <script defer src="scripts/place.js"></script>
     </head>
-</head>
 
 <body>
     <header>
@@ -18,8 +20,9 @@
 
     <main>
         <picture>
-            <img src="images/download.jpg" alt="about Japan" />
-        </picture>
+            <source srcset="images/japan-small.jpg" media="(max-width: 600px)">
+            <img src="images/japan.jpg" alt="View of Japan">
+        </picture>          
 
         <section class="card data">
             <h2>Data</h2>
