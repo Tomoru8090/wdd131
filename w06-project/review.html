@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Review Summary</title>
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+<header>
+    <h1>My W06 Project</h1>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="place.html">Places</a>
+        <a href="form.html">Contact</a>
+    </nav>
+</header>
+  
+<body>
+    <main>
+        <h1>Thank You for Your Review!</h1>
+        <section>
+            <p><strong>Product:</strong> <span id="productName"></span></p>
+            <p><strong>Rating:</strong> <span id="productRating"></span></p>
+            <p><strong>Date of Installation:</strong> <span id="installDate"></span></p>
+            <p><strong>Useful Features:</strong> <span id="features"></span></p>
+            <p><strong>Your Review:</strong> <span id="reviewText"></span></p>
+            <p><strong>Your Name:</strong> <span id="username"></span></p>
+        </section>
+    </main>
+    <script>
+        const params = new URLSearchParams(window.location.search);
+        document.getElementById('productName').textContent = params.get('product');
+        document.getElementById('productRating').textContent = params.get('rating');
+        document.getElementById('installDate').textContent = params.get('installDate');
+        document.getElementById('features').textContent = params.getAll('features').join(', ');
+        document.getElementById('reviewText').textContent = params.get('reviewText');
+        document.getElementById('username').textContent = params.get('username');
+    </script>
+    <script src="scripts/main.js"></script>
+</body>
+<footer>
+    <p>&copy; 2025 Tomoru Aoki · WDD 131</p>
+</footer>
+</html>

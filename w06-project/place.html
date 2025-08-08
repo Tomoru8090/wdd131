@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My W06 Project</title>
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+  
+
+<body>
+    <header>
+        <h1>My W06 Project</h1>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="place.html">Places</a>
+            <a href="form.html">Contact</a>
+        </nav>
+    </header>
+
+    <main>
+        <picture>
+            <source srcset="images/japan-small.jpg" media="(max-width: 600px)">
+            <img src="images/download.jpg" alt="View of Japan">
+        </picture>
+    
+        <section class="card data">
+            <h2>Data</h2>
+            <ul>
+                <li><strong>Area:</strong> 377,975 km²</li>
+                <li><strong>Population:</strong> 125.7 million</li>
+                <li><strong>Capital:</strong> Tokyo</li>
+                <li><strong>Language:</strong> Japanese</li>
+                <li><strong>Currency:</strong> Japanese Yen (JPY)</li>
+                <li><strong>Time Zone:</strong> GMT+9 (JST)</li>
+            </ul>
+        </section>
+    
+        <section class="card weather">
+            <h2>Weather</h2>
+            <ul>
+                <li><strong>Temperature:</strong> 29°C</li>
+                <li><strong>Conditions:</strong> Humid and Sunny</li>
+                <li><strong>Wind:</strong> 18 km/h</li>
+                <li><strong>Wind Chill:</strong> <span id="windChill">N/A</span></li>
+            </ul>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy;2025 🌴 Japan | WDD 131 | Tomoru Aoki</p>
+    </footer>
+    <script src="scripts/main.js"></script>
+</body>
+</html>

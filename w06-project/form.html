@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My W06 Project</title>
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+  
+
+<body>
+    <header>
+        <h1>My W06 Project</h1>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="place.html">Places</a>
+            <a href="form.html">Contact</a>
+        </nav>
+    </header>
+
+    <main>
+        <h1>Product Review</h1>
+        <form id="reviewForm" action="review.html" method="get">
+    
+            <!-- Product Name -->
+            <label for="product">Product Name</label>
+            <select id="product" name="product" required>
+                <option value="">Please select a product</option>
+                <option value="Temple Recommend Holder">Temple Recommend Holder</option>
+                <option value="Scripture Tote">Scripture Tote</option>
+                <option value="CTR Ring">CTR Ring</option>
+            </select>
+    
+            <!-- Overall Rating -->
+            <fieldset>
+                <legend>Overall Rating</legend>
+                <label><input type="radio" name="rating" value="1" required> 1</label>
+                <label><input type="radio" name="rating" value="2"> 2</label>
+                <label><input type="radio" name="rating" value="3"> 3</label>
+                <label><input type="radio" name="rating" value="4"> 4</label>
+                <label><input type="radio" name="rating" value="5"> 5</label>
+            </fieldset>
+    
+            <!-- Date of Installation -->
+            <label for="installDate">Date of Installation</label>
+            <input type="date" id="installDate" name="installDate" required>
+    
+            <!-- Useful Features -->
+            <fieldset>
+                <legend>Which features did you find useful?</legend>
+                <label><input type="checkbox" name="features" value="Durable"> Durable</label>
+                <label><input type="checkbox" name="features" value="Lightweight"> Lightweight</label>
+                <label><input type="checkbox" name="features" value="Stylish"> Stylish</label>
+            </fieldset>
+    
+            <!-- Written Review -->
+            <label for="reviewText">Your Review</label>
+            <textarea id="reviewText" name="reviewText" rows="4" cols="50"></textarea>
+    
+            <!-- User Name -->
+            <label for="username">Your Name</label>
+            <input type="text" id="username" name="username" required>
+    
+            <!-- Submit -->
+            <button type="submit">Post Review</button>
+        </form>
+    </main>
+
+    <footer>
+        <p>&copy;2025 🌴 Japan | WDD 131 | Tomoru Aoki</p>
+    </footer>
+    <script src="scripts/main.js"></script>
+</body>
+
+</html>
